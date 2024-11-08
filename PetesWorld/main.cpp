@@ -218,6 +218,40 @@ int main()
 			std::cout << "Grenada, Guadeloupe, Guam" << std::endl;
 		}
 	}
+	if (letter == 's' || letter == 'S') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "Suriname" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "San Marino,Serbia, Slovakia, Slovenia,Spain, Sweden, Switzerland" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa,South Sudan,Sudan, Swaziland " << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "Saudi Arabia, Singapore, Sri Lanka, Syria, Syrian Arab Republic" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Solomon Islands" << std::endl;
+		}
+	}
+	if (letter == 't' || letter == 'T') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "Trinidad and Tobago" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "There are no Ts in Europe" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "Tanzania; officially the United Republic of Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "Taiwan (Republic of China), Tajikistan, Thailand, Tibet, Timor-Leste (East Timor), Turkey, Turkmenistan" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "Tokelau, Tonga, Turks and Caicos Islands, Tuvalu" << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "United States, Uruguay" << std::endl;
