@@ -178,6 +178,23 @@ int main()
 			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
 		}
 	}
+	if (letter == 't' || letter == 'T') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "Trinidad and Tobago" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "There are no Ts in Europe" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "Tanzania; officially the United Republic of Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "Taiwan (Republic of China), Tajikistan, Thailand, Tibet, Timor-Leste (East Timor), Turkey, Turkmenistan" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "Tokelau, Tonga, Turks and Caicos Islands, Tuvalu" << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "United States, Uruguay" << std::endl;
