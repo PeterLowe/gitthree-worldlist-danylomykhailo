@@ -224,6 +224,29 @@ int main()
 			std::cout << "Haiti" << std::endl;
 		}
 	}
+	if (letter == 'i' || letter == 'I') // written by Danylo
+	{
+		if (region == 1)
+		{
+			std::cout << "Iceland" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Ireland, Italy" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Hs in the Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "India, Indonesia, Iran, Iraq, Israel, Ivory Coast" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Hs in the Rest of The World" << std::endl;
+		}
+	}
 	if (letter == 's' || letter == 'S') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "Suriname" << std::endl;
