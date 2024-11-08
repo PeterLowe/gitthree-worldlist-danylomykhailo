@@ -132,39 +132,6 @@ int main()
 			std::cout << "Dominica, Dominican Republic" << std::endl;
 		}
 	}
-	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
-		if (region == 1) {
-			std::cout << "United States, Uruguay" << std::endl;
-		}
-		if (region == 2) {
-			std::cout << "Ukraine, United Kingdom" << std::endl;
-		}
-		if (region == 3) {
-			std::cout << "Uganda" << std::endl;
-		}
-		if (region == 4) {
-			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
-		}
-		if (region == 5) {
-			std::cout << "There are no Us in the rest of the world" << std::endl;
-		}
-	}
-	if (letter == 'v' || letter == 'V') {  //done by Mykhailo
-		if (region == 1) {
-			std::cout << "Venezuela" << std::endl;
-		}
-		if (region == 2) {
-			std::cout << "Vatican City State" << std::endl;
-		}
-		if (region == 3) {
-			std::cout << "There are no Vs in Africa" << std::endl;
-		}
-		if (region == 4) {
-			std::cout << "Vietnam" << std::endl;
-		}
-		if (region == 5) {
-			std::cout << "Vanuatu, Virgin Islands(British) ,Virgin Islands(U.S.)" << std::endl;
-		}
 	if (letter == 'e' || letter == 'E') // written by Danylo
 	{
 		if (region == 1)
@@ -211,6 +178,39 @@ int main()
 			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
 		}
 	}
+	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "United States, Uruguay" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
+	}
+	if (letter == 'v' || letter == 'V') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "Venezuela" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "Vanuatu, Virgin Islands(British) ,Virgin Islands(U.S.)" << std::endl;
+		}
 	if (letter == 'w' || letter == 'W') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "There are no Ws in the Americas" << std::endl;
