@@ -132,6 +132,22 @@ int main()
 			std::cout << "Dominica, Dominican Republic" << std::endl;
 		}
 	}
+	if (letter == 'v' || letter == 'V') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "Venezuela" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "Vanuatu, Virgin Islands(British) ,Virgin Islands(U.S.)" << std::endl;
+		}
 	if (letter == 'e' || letter == 'E') // written by Danylo
 	{
 		if (region == 1)
