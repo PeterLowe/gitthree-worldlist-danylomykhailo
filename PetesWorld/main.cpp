@@ -148,6 +148,7 @@ int main()
 		if (region == 5) {
 			std::cout << "There are no Us in the rest of the world" << std::endl;
 		}
+	}
 	if (letter == 'v' || letter == 'V') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "Venezuela" << std::endl;
