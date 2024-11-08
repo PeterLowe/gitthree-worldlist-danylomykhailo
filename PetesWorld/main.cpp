@@ -1,8 +1,8 @@
 // program to find countries in Pete's World
-// date November 2022
+// date 8th november
 // author Pete Lowe
 // add your name here
-//  or here
+// Mykhailo Babych
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
