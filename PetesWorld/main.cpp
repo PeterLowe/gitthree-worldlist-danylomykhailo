@@ -132,6 +132,22 @@ int main()
 			std::cout << "Dominica, Dominican Republic" << std::endl;
 		}
 	}
+	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
+		if (region == 1) {
+			std::cout << "United States, Uruguay" << std::endl;
+		}
+		if (region == 2) {
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3) {
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4) {
+			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
+		}
+		if (region == 5) {
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
 	if (letter == 'v' || letter == 'V') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "Venezuela" << std::endl;
