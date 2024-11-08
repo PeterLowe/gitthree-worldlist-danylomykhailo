@@ -178,6 +178,29 @@ int main()
 			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
 		}
 	}
+	if (letter == 'g' || letter == 'G') // written by Danylo
+	{
+		if (region == 1)
+		{
+			std::cout << "Greenland, Guatemala, Guyana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Germany, Gibraltar, Greece" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Georgia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Grenada, Guadeloupe, Guam" << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "United States, Uruguay" << std::endl;
