@@ -132,7 +132,29 @@ int main()
 			std::cout << "Dominica, Dominican Republic" << std::endl;
 		}
 	}
-
+	if (letter == 'e' || letter == 'E') // written by Danylo
+	{
+		if (region == 1)
+		{
+			std::cout << "Ecuador, El Salvador" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Estonia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Egypt, Equatorial Guinea, Eritrea, Ethiopia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "East Timor (Timor-Leste)" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Es in the Rest of The World" << std::endl;
+		}
+	}
 	if (letter == 'w' || letter == 'W') {  //done by Mykhailo
 		if (region == 1) {
 			std::cout << "There are no Ws in the Americas" << std::endl;
@@ -164,7 +186,7 @@ int main()
 			std::cout << "There are no Xs in Asia" << std::endl;
 		}
 		if (region == 5) {
-			std::cout << "There are no Xs in thethe rest of the world" << std::endl;
+			std::cout << "There are no Xs in the rest of the world" << std::endl;
 		}
 	}
 	if (letter == 'y' || letter == 'Y') {  //done by Mykhailo
@@ -181,7 +203,7 @@ int main()
 			std::cout << "Yemen" << std::endl;
 		}
 		if (region == 5) {
-			std::cout << "There are no Ys in thethe rest of the world" << std::endl;
+			std::cout << "There are no Ys in the rest of the world" << std::endl;
 		}
 	}
 
